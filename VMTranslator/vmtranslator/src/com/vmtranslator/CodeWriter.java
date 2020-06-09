@@ -1,9 +1,27 @@
 package com.vmtranslator;
 
+import java.io.File;
+// Translates VM commands into Hack assembly code.
 public class CodeWriter {
-	private String stream;
+	private File stream;
 	
-	public static void sayHello() {
-		System.out.println("Hello from Code Writer");
+	public CodeWriter(File stream) {
+		this.stream = stream;
+	}
+	
+	public void setFileName(String fileName) {
+		
+	}
+	
+	public void writeArithmetic(String command) {
+		
+	}
+	
+	public void writePushPop(String command) {
+		
+	}
+	
+	public void close() {
+
 	}
 }
